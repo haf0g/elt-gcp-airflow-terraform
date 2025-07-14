@@ -33,18 +33,22 @@ This project demonstrates how to build a **scalable ELT** (Extract–Load–Tran
    - BigQuery datasets
    - Airflow VM on Compute Engine
 
-2. **ELT Pipeline**  
+2. **ELT Pipeline**
+
+> <img width="1173" height="635" alt="Dags-airflow-elt" src="https://github.com/user-attachments/assets/a18bd21c-87d5-44e2-8033-5c8e08c4e6b0" />
+>
+
    - **Extract**: Airflow detects file in GCS  
    - **Load**: Moves the data to BigQuery staging  
    - **Transform**:  
      - Normalize into transformed_dataset  
      - Generate country-specific reporting views for GCP optimized performance in querying
 
-3. **Secure Delivery**  
+4. **Secure Delivery**  
    - Sensitive data stays partitioned
    - Reporting layers filtered by country and disease treatment availability
 
-4. **Dashboard & Alerts**
+5. **Dashboard & Alerts**
 
 > <img width="1350" height="758" alt="Capture d'écran 2025-07-13 002131" src="https://github.com/user-attachments/assets/7e0cadfd-59cf-490b-b7ed-c043ed3c16ee" />
 >
