@@ -44,7 +44,11 @@ This project demonstrates how to build a **scalable ELT** (Extract–Load–Tran
    - Sensitive data stays partitioned
    - Reporting layers filtered by country and disease treatment availability
 
-4. **Dashboard & Alerts**  
+4. **Dashboard & Alerts**
+
+> <img width="1350" height="758" alt="Capture d'écran 2025-07-13 002131" src="https://github.com/user-attachments/assets/7e0cadfd-59cf-490b-b7ed-c043ed3c16ee" />
+>
+
    - Looker retrieves reporting tables  
    - Scheduled Gmail alerts notify stakeholders
 
