@@ -24,6 +24,9 @@ This project demonstrates how to build a **scalable ELT** (Extract–Load–Tran
 
 ## 🛠 Architecture & Workflow
 
+>![Project Diagram](/img/project-Diagram.png)
+>
+
 1. **Provisioning**  
    Terraform spins up:
    - GCS bucket for raw CSV
