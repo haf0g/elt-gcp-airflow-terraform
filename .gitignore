@@ -1,0 +1,11 @@
+terraform/.terraform
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+
+terraform-bucket-setup/.terraform
+terraform-bucket-setup/.terraform.lock.hcl
+terraform-bucket-setup/terraform.tfstate
+terraform-bucket-setup/terraform.tfstate.backup
+
+*.json
